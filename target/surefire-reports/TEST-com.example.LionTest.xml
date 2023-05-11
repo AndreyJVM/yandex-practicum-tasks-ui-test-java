@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="com.example.LionTest" time="0.026" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="com.example.LionTest" time="0.037" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2023.1.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -58,8 +58,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="com.example.LionTest" name="getFoodReturnsCorrectValue" time="0.024"/>
-  <testcase classname="com.example.LionTest" name="getKittensReturnsCorrectValue" time="0.002"/>
-  <testcase classname="com.example.LionTest" name="getExceptionOneCorrectValue" time="0"/>
+  <testcase classname="com.example.LionTest" name="getFoodReturnsCorrectValue" time="0.035"/>
+  <testcase classname="com.example.LionTest" name="getKittensReturnsCorrectValue" time="0.001"/>
+  <testcase classname="com.example.LionTest" name="getExceptionOneCorrectValue" time="0.001"/>
   <testcase classname="com.example.LionTest" name="getExceptionTwoCorrectValue" time="0"/>
 </testsuite>

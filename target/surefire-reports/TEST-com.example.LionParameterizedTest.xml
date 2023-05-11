@@ -58,6 +58,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="com.example.LionParameterizedTest" name="doesHaveManeReturnsCorrectValue[0]" time="0"/>
-  <testcase classname="com.example.LionParameterizedTest" name="doesHaveManeReturnsCorrectValue[1]" time="0.001"/>
+  <testcase classname="com.example.LionParameterizedTest" name="doesHaveManeReturnsCorrectValue[0]" time="0.001"/>
+  <testcase classname="com.example.LionParameterizedTest" name="doesHaveManeReturnsCorrectValue[1]" time="0"/>
 </testsuite>
