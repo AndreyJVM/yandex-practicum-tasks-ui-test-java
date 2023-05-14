@@ -15,7 +15,7 @@ public class LionTest extends BaseTest {
     @Test
     public void getKittensReturnsCorrectValue() throws Exception {
         // Arrange
-        Lion lion = new Lion("Самец");
+        Lion lion = new Lion(feline,"Самец");
         Mockito.when(feline.getKittens()).thenReturn(1);
         int expectCount = 1;
 
@@ -29,7 +29,7 @@ public class LionTest extends BaseTest {
     @Test
     public void getFoodReturnsCorrectValue() throws Exception {
         // Arrange
-        Lion lion = new Lion("Самка");
+        Lion lion = new Lion(feline,"Самка");
         Mockito.when(feline.getFood("Хищник")).thenReturn(List.of("Животные", "Птицы", "Рыба"));
         List<String> expectedFood = List.of("Животные", "Птицы", "Рыба");
 
@@ -42,7 +42,7 @@ public class LionTest extends BaseTest {
 
     @Test(expected = Exception.class)
     public void getExceptionOneCorrectValue() throws Exception {
-        new Lion("ошибка");
+        new Lion(feline,"ошибка");
     }
 
     @Test
@@ -50,7 +50,7 @@ public class LionTest extends BaseTest {
         String expectedText = "Используйте допустимые значения пола животного - самей или самка";
         Exception exception = null;
         try {
-            new Lion("ошибка");
+            new Lion(feline,"ошибка");
         } catch (Exception ex) {
             exception = ex;
         }
